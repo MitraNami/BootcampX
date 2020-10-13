@@ -1,4 +1,4 @@
--- Get the students whose average time it takes to complete an assignment is less than the average estimated time 
+-- Get the students whoseaverage time it takes to complete an assignment is less than the average estimated time 
 -- it takes to complete an assignment.
 
 SELECT students.name as student, avg(assignment_submissions.duration) as average_assignment_duration, 
